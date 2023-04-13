@@ -27,3 +27,15 @@ setup.py  # change your project name
 
 ## 4. Create `.ebextensions/python.config` for AWS
 
+```python
+mkdir .ebextensions
+touch .ebextensions/python.config
+```
+Vist: [docu](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-container.html)
+
+## 5. Create `application.py` by copy `app.py`
+
+```python
+touch application.py
+```
+
