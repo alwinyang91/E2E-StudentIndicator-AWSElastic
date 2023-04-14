@@ -33,9 +33,13 @@ touch .ebextensions/python.config
 ```
 Vist: [docu](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-container.html)
 
-## 5. Create `application.py` by copy `app.py`
+## 5. Rename `app.py` as `application.py`
 
-```python
-touch application.py
-```
+
+## 6. Note
+have to Roles create a ec2 role
+
+then select it when you create Elastic Beanstalk
+
+after the envernoment is created, create a CodePipeline
 
