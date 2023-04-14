@@ -37,7 +37,7 @@ Vist: [docu](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deplo
 
 
 ## 6. Note
-have to Roles create a ec2 role
+go to Roles create a ec2 role
 
 then select it when you create Elastic Beanstalk
 
